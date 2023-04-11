@@ -33,7 +33,7 @@ KDE Frameworks 5 Tier 1 addon for localization.
 Summary:        Development files for %{name}
 Requires:       %{name}%{?_isa} = %{version}-%{release}
 Requires:       gettext
-Requires:       python3
+Requires:       python3-base
 %description    devel
 The %{name}-devel package contains libraries and header files for
 developing applications that use %{name}.
